@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block head_title %} Homepage -{{block.super}}{% endblock head_title %}
+
+{% block content %}
+<p>Hello Blog Again</p>
+
+{% comment %} Page visits:{{queryset}} {% endcomment %}
+Page visits:{{page_vigit_count}}
+Page visits:{{total_visit_count}}
+{% endblock content %}
